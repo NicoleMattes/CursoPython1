@@ -41,5 +41,8 @@ elif opc == 3:
 elif opc == 4:
     while num2 == 0:
         num2 = int(input('O num2 não pode ser 0. Digite o num2 novamente\n'))
-        result = num1/num2
-    print(f'O resultado é {result}')
+        final = num1/num2
+        print(f'O resultado é {final}')
+
+else:
+    print('O número é invalido')
