@@ -10,7 +10,7 @@ Escreva um programa que, dada a idade de um nadador, classifique-o em uma das se
 # Entrada de dados
 
 idd = int(input('Informe a idade do nadador \n'))
-while idd <5:
+while idd < 5:
     print('Idade não permitida. \n'
           'Somente acima de 5 anos\n')
     idd = int(input('Digite a idade do nadador\n'))
@@ -29,4 +29,3 @@ elif 14 >= idd <= 17:
 
 elif idd >= 18:
     print('Sênior\n')
-
