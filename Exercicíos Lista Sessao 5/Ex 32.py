@@ -1,3 +1,17 @@
+"""
+Escreva um programa que leia o código do produto escolhido do cardápio de uma lanchonete e a quantidade.
+O progrram deve calcular o valor a ser pago por aquele lanche. Considere que a cada execução somente será
+calculado um peido. O cardápio da lanchonete segue o padrão a baixo
+    - Especificação, código, preço
+    - Cachorro Quente, 100, 1.20
+    - Bauru Simples, 101, 1.30
+    - Bauru com Ovo, 102, 1.50
+    - Hamburguer, 103, 1.50
+    - cheesburguer, 104, 1.70
+    - Sucu, 105, 2.20
+    - Refrigerante, 106, 1.00
+"""
+
 print("               Cardápio \n"
       "Especificação    | COD | Preço       \n"
       "Cachorro quente: | 100 | Valor: 1.20 \n"
