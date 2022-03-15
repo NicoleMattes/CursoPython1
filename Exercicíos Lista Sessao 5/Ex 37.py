@@ -52,3 +52,4 @@ elif 2 < temH < 5:
 
 else:
     print(f"O valor cobrador será de R${((2 * 1) + (2 * 1.4)) + ((temH - 4) * 2):.2f}")
+
