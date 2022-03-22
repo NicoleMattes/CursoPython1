@@ -8,3 +8,4 @@ n = int(input())
 for i in range(0, n):
     print(f'{i}')
 
+#Descobrir como inverte o i
