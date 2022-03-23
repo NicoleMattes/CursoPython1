@@ -5,12 +5,13 @@ crescente
 
 
 n = float(input('Digite um número\n'))
-while n < 0 and n%2 == 1:
-    n = float(input())
-    print('digite novamene um número ')
-    for i in range(0, n):
-        if i % 2 == 0:
-            print(f'{i}')
+while n < 0 or n % 2 == 1:
+    print('Número invalido')
+    n = float(input('Digite um número par\n'))
+
+for i in range(0, int(n) + 1):
+    if i % 2 == 0:
+        print(f'{i}')
 
 
 # descobrir pq o while não deu certo
