@@ -17,15 +17,15 @@ soma = int()
 # Condição/validação Verificação se os valores digitados são validos
 
 if a >= 0 or b < a:
-    print('Os valores digitados são validos')
+    print('Os valores digitados são validos\n')
 else:
     print('ERRO\n'
-          'Um ou mais valores digitados não são validos')
+          'Um ou mais valores digitados não são validos\n')
 
 # processamento - loop
 
 for i in range(a, b+1):
     if i%2 == 1:
         soma = soma + i
-print(f'{soma}')
+print(f'A soma dos números impares é: {soma}')
 
