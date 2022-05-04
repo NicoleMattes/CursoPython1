@@ -28,3 +28,4 @@ if qc == qa + qb:
     print('A enquação é pitagórica')
 else:
     print('A equação não é piragórica')
+
