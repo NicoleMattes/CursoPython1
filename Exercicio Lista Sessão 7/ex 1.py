@@ -1,13 +1,20 @@
-
-
-
-
-v = []
-while len(v) < 10:
-    x = int(input("Escreva um numero: "))
-    if x in v:
-        print("Nao pode escrever esse numero.")
+a = []
+while len(a) < 6:
+    x = float(input('escreva um número:'))
+    if x in a:
+        print('não pode escrever esse número')
     else:
-        v.append(x)
+        a.append(x)
 
-print(v)
+print(a)
+
+soma = a[0] + a[1] + a[5]
+print(soma)
+
+a.insert(4, 100)
+print(a)
+
+for i in a:
+    print(i)
+
+print('\n'.join(map(str, a)))
